@@ -2,9 +2,40 @@
 <html>
 <head>
     <title>My First Web Page</title>
+    <style>
+        body {
+            background-color: #1e1e2f; /* koyu arka plan */
+            color: #ffffff; /* yazı rengi */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #00bfff; /* mavi başlık */
+        }
+        p {
+            font-size: 20px;
+        }
+        a {
+            color: #ff7f50; /* link rengi */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background-color: #2e2e3f;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ritmic!</h1>
-    <p>This is my first GitHub web page project.</p>
+    <div class="container">
+        <h1>Hello, I am Ritmic!</h1>
+        <p>This is my first GitHub web page project.</p>
+        <p>Check my <a href="https://github.com/ritmicofficial">GitHub profile</a>.</p>
+    </div>
 </body>
 </html>
