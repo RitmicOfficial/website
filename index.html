@@ -1,42 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritmic Web Page</title>
     <style>
         body {
-            background-color: #1e1e2f; /* koyu arka plan */
-            color: #ffffff; /* yazı rengi */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            background-color: #1e1e2f;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
-        h1 {
-            color: #00bfff; /* mavi başlık */
-        }
-        p {
-            font-size: 20px;
-        }
-        a {
-            color: #ff7f50; /* link rengi */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+
         .container {
             background-color: #2e2e3f;
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #00bfff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Logo -->
+        <img src="ritmic-logo.png" alt="Ritmic Logo" class="logo">
+
+        <!-- Başlık ve açıklama -->
         <h1>Hello, I am Ritmic!</h1>
-        <p>This is my first GitHub web page project.</p>
+        <p>Welcome to my first GitHub web page project.</p>
         <p>Check my <a href="https://github.com/ritmicofficial">GitHub profile</a>.</p>
-        <img src="https://github.com/ritmic.png" alt="My Avatar" width="150">
     </div>
 </body>
 </html>
