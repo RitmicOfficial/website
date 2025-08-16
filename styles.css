@@ -38,8 +38,8 @@ header {
 }
 
 .logo img {
-  height: 40px; /* Logo boyutu */
-  margin-right: 10px; /* Yazı ile arası */
+  height: 40px; 
+  margin-right: 10px; 
 }
 
 nav {
