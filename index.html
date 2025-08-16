@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ritmic Web Page</title>
-    <style>
-        body { background-color: #1e1e2f; color: #fff; text-align: center; font-family: Arial, sans-serif; padding: 50px; }
-        .container { background-color: #2e2e3f; padding: 30px; border-radius: 15px; display: inline-block; }
-        .logo { width: 150px; margin-bottom: 20px; }
-        h1 { color: #00bfff; }
-        a { color: #ff7f50; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritmic | Personal Website</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <img src="ritmic.png" alt="Ritmic Logo" class="logo">
-        <h1>Hello, I am Ritmic!</h1>
-        <p>Welcome to my first GitHub web page project.</p>
-        <p>Check my <a href="https://github.com/ritmicofficial">GitHub profile</a>.</p>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Ritmic</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section home">
+    <h1>Hello, I'm <span class="highlight">Ritmic</span> 👋</h1>
+    <p>A beginner learning software development and building projects.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm currently learning programming.  
+      This website is one of my first steps into the world of software development 🚀.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <!-- Project 1 -->
+      <div class="card">
+        <h3>Calculator</h3>
+        <p>A simple Python calculator project I made while learning coding.</p>
+        <a href="https://github.com/ritmicofficial/calculator" target="_blank">View on GitHub</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="card">
+        <h3>First Website</h3>
+        <p>My personal website built with HTML and CSS (this site!).</p>
+        <a href="https://ritmicofficial.github.io/website" target="_blank">Live Website</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A weather app project using API (coming soon).</p>
+        <a href="https://github.com/ritmicofficial/weather-app" target="_blank">View on GitHub</a>
+      </div>
     </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>You can reach me via:</p>
+    <ul>
+      <li>📧 Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></li>
+      <li>💻 GitHub: <a href="https://github.com/ritmicofficial" target="_blank">ritmicofficial</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ritmic</p>
+  </footer>
 </body>
 </html>
