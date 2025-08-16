@@ -29,6 +29,19 @@ header {
   top: 0;
 }
 
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 40px; /* Logo boyutu */
+  margin-right: 10px; /* Yazı ile arası */
+}
+
 nav {
   display: flex;
   justify-content: space-between;
