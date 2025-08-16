@@ -19,12 +19,6 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
       </ul>
-      <div class="theme-switch-wrapper">
-        <label class="theme-switch" for="theme-toggle">
-          <input type="checkbox" id="theme-toggle">
-          <span class="slider round"></span>
-        </label>
-      </div>
     </nav>
   </header>
 
@@ -67,15 +61,8 @@
     <p>© 2025 Ritmic</p>
   </footer>
 
-  <!-- Scripts -->
+  <!-- Smooth Scroll Script -->
   <script>
-    // Dark/Light mode toggle
-    const toggle = document.getElementById('theme-toggle');
-    toggle.addEventListener('change', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-
-    // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
